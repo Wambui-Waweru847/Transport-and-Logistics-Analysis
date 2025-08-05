@@ -51,13 +51,13 @@ The dataset originally lacked date or time information. A continuous Order_Date 
 
 ### Data Preparation & Modeling
   - Added a continuous Order_Date using DAX and an existing Index_ID column:
-    '''
+    ```
     Order_date = 
             VAR StartDate = DATE(2024, 1,1)
             VAR TotalDays = DATEDIFF(StartDate, DATE(2025, 6, 30), DAY)+1
             RETURN
             StartDate + MOD('Train'[ID], TotalDays)
-    '''
+    ```
 - Modeled data using a flat table format for performance; time dimension added for trend analysis.
 
 ### Dashboard Overview
