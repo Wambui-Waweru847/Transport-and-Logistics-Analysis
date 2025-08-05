@@ -95,7 +95,7 @@ StartDate + MOD('Train'[ID], TotalDays)'
 This logistics dashboard empowers operations teams to make data-driven decisions that improve delivery performance. By engineering a time dimension and layering insights across mode, warehouse, product, and location, we simulate a real-world logistics monitoring solution. Future improvements could include integrating real-time GPS tracking and actual delivery timestamps for even more granular analysis.
 
 ### Resources & References
-For the interactive dashboard, [Click HERE] (https://app.powerbi.com/view?r=eyJrIjoiZTAwNTQ2NjktYzQ3YS00NjE4LWJiZGMtZDFhYTNlM2UzN2Q4IiwidCI6IjZmMWE1ZTFhLWVkY2EtNGJjYy1iMmMwLWY4MGE4OTM3MzE2NiJ9)
+For the interactive dashboard, [Click HERE](https://app.powerbi.com/view?r=eyJrIjoiZTAwNTQ2NjktYzQ3YS00NjE4LWJiZGMtZDFhYTNlM2UzN2Q4IiwidCI6IjZmMWE1ZTFhLWVkY2EtNGJjYy1iMmMwLWY4MGE4OTM3MzE2NiJ9)
 
 
 
